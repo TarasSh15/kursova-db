@@ -1,0 +1,60 @@
+ .main-body{
+  background: url("../img/4907157.jpg")  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+input[type='number']{
+    width: 80px;
+} 
+
+.bg-dark{
+  background-image: var(--bs-gradient);
+}
+.v-main-post{
+  max-width: 25%;
+  margin-top: 1%;
+  margin-left: 5vh;
+  padding: 5px;
+  text-align: center;
+}
+.main-form{
+  padding: 30px;
+}
+main{
+  max-height: 95%;
+  max-width: 95%;
+  margin-left: 2%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.main-navig{
+  max-width: 25%;
+}
+
+.main-table{
+  border-collapse: separate;
+  border-spacing: 40px 15px;
+  font-size: 3vh;
+}
+footer{
+  margin-top: 10%;
+}
+
+.show-div-main-post{
+  margin-top: 15%;
+}
+
+.index-upper-post{
+  top: 10px;
+}
+a.text:active,
+a.text:hover,  
+a.text {
+  text-decoration: none;
+  color: #666;
+}
