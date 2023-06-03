@@ -1,6 +1,6 @@
 <?php
 include "dbConn.php";
-
+$localIP = getHostByName(getHostName());
 // read data from DB table
 $sql = "SELECT `disp_list`.tech_id, `disp_list`.disp_name, `disp_list`.resol_id, `disp_list`.disp_diag, `disp_list`.view_angle FROM disp_list";
 $result = $conn->query($sql);
@@ -34,6 +34,7 @@ if ($result->num_rows > 0) {
             <button class="btn btn-outline-dark btn-lg" onclick ="location.href='index.php'" type="button">Головна</button>
             <button class="btn btn-outline-dark btn-lg" onclick ="location.href='sort_data.php'" type="button">Пошук</button>
             <button class="btn btn-outline-dark btn-lg" onclick ="location.href='add_data.php'" type="button">Додати дані</button>
+            <p><?php echo $localIP; ?></p>
         </div>
     </div>
     <div class="container-fluid text-white bg-dark py-4">
