@@ -30,11 +30,11 @@ if ($result->num_rows > 0) {
 <body class = "main-body">
 <main>
     <div class="main-navig">
-        <div class="d-flex justify-content-around py-4">
+        <div class="d-flex justify-content-around py-5">
             <button class="btn btn-outline-dark btn-lg" onclick ="location.href='index.php'" type="button">Головна</button>
             <button class="btn btn-outline-dark btn-lg" onclick ="location.href='sort_data.php'" type="button">Пошук</button>
             <button class="btn btn-outline-dark btn-lg" onclick ="location.href='add_data.php'" type="button">Додати дані</button>
-            <h2>Hello i am : <?php echo $localIP; ?></h2>
+            <h2>Hello I am : <?php echo $localIP; ?></h2>
         </div>
     </div>
     <div class="container-fluid text-white bg-dark py-4">
