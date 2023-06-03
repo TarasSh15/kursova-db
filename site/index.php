@@ -34,7 +34,7 @@ if ($result->num_rows > 0) {
             <button class="btn btn-outline-dark btn-lg" onclick ="location.href='index.php'" type="button">Головна</button>
             <button class="btn btn-outline-dark btn-lg" onclick ="location.href='sort_data.php'" type="button">Пошук</button>
             <button class="btn btn-outline-dark btn-lg" onclick ="location.href='add_data.php'" type="button">Додати дані</button>
-            <p><?php echo $localIP; ?></p>
+            <h2>Hello i am : <?php echo $localIP; ?></h2>
         </div>
     </div>
     <div class="container-fluid text-white bg-dark py-4">
